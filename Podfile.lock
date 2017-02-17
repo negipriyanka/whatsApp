@@ -1,0 +1,15 @@
+PODS:
+  - ASJExpandableTextView (0.4)
+  - Kingfisher (3.3.4)
+
+DEPENDENCIES:
+  - ASJExpandableTextView
+  - Kingfisher (~> 3.0)
+
+SPEC CHECKSUMS:
+  ASJExpandableTextView: bfc429e37d4835e628127d3aa09a5e6971e9bfe4
+  Kingfisher: 35f289f015d26e81ea6c85048718c6205f3933c6
+
+PODFILE CHECKSUM: 83de1d52e354b7d50c4f529bb65345732e6c9555
+
+COCOAPODS: 1.2.0

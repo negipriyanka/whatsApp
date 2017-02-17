@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9CC28AC8E34FE8E1C87E933E04BC7A /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FB6F0B7B4AA66ABF33E4E744FA4254 /* ImageProcessor.swift */; };
+		179523942E7D1E3EB210EF05E2C7AE79 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4216D0944CFA568A6D6EC1DB6285468C /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17C24653C3B9A56E104D7FC8B8B57610 /* ASJExpandableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDA2E674E74057A443EB06185F4F0EA /* ASJExpandableTextView.m */; };
+		1FB4CD1D7AEB5F39A44BD62865C87436 /* ASJExpandableTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = B89B623EBC1DE2BE9769A215E6AA7D0C /* ASJExpandableTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E5E570FFC49EF98550401421A243C0F /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C4378DC36292F7B2B3ADCEC721CBC6 /* CacheSerializer.swift */; };
+		33395912F2FFA355C4C36B7EDEAA3DA7 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC9CB36E8FAE4DE485B0FBD2D4AF8C /* ImageView+Kingfisher.swift */; };
+		33A14E817C0FA585D5DA3A55E453299D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076773762A9C09D7ECF403A6EA17AE /* Image.swift */; };
+		3414E1D9CB15149A296E16C45967B021 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5103B50768A36D9FFEC7B2983F432E /* ImagePrefetcher.swift */; };
+		342AE33215135AD56B73580012DC22AB /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F043E71E646A313F259DF3DDF9079 /* AnimatedImageView.swift */; };
+		378B44CAA91C2106076668FDE72E1E02 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B798E3341BE75855F2F1A2EFD093D57 /* KingfisherOptionsInfo.swift */; };
+		4089E39F76F86466B8DDD39A1C1ABB6B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF2D070F30B398B89FF4D27A4F3A6BD /* Filter.swift */; };
+		52A280AB4852FDE92DF09B5E79D5C2AA /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA02ADC65E9C3E60DCD910D12268D1 /* Indicator.swift */; };
+		57D144E5C38C49B0EE589017468A8DDA /* Pods-whatsappTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28DEB3033EA8C611F1ED75181C25B016 /* Pods-whatsappTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A375593407BC7937234B2B6A0811760 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD157E135A66829817F723DEE55BFF71 /* Kingfisher-dummy.m */; };
+		6CD63E1564618B6213B98E0ABBC3127C /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26669247AFB98DB468DEB4805CCB9217 /* ThreadHelper.swift */; };
+		6DA770087D354CDCD3889CDAE7C4C698 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6675B3A4AEA316BF330D3635D74E8 /* Box.swift */; };
+		72BCAB23B820A852D427C6D6E2B209FD /* Pods-whatsappTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CC0146955605168CC2C44F2AC4EC47 /* Pods-whatsappTask-dummy.m */; };
+		7636F846675C9F4ED96E00C6C19A4890 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE019279235E591C454E9A4D51BFC1CF /* KingfisherManager.swift */; };
+		86B7DA678C8705523C300947117C0706 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30644DBA328F008044014A1A014D036D /* ImageTransition.swift */; };
+		8DA7E6883118CB3C8132B64D3D43AE0B /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B6150F5948C7152B3734FD30945D2E /* Resource.swift */; };
+		92136C6584624998D5005F46C70A628B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA5794656CD6EAD5432F6E93991FC63 /* CFNetwork.framework */; };
+		9C99E45B90BD95712D9878994BFC8B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */; };
+		9F826F893E86EB86591B637A1CE4B13A /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49A9D12F7EE961B183B286A476A4B54 /* String+MD5.swift */; };
+		A8F35D1EBAEF99D38F02A0B8CA5D8FBE /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D6BD79F49585AA1F19F1EAEB7C88AA /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2D29641810DA0759AB7B38F178ABFFD /* ASJExpandableTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A38AF105450B0981AFC8FD0E982EF0 /* ASJExpandableTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C32F4AE0D5E8D9D07786045D9B0EF8BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */; };
+		C55D828F8F253D726165D4CEA378FAF5 /* ASJInputAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05E7875CBDF9D5DBC9BBE2DB8D6ADD1 /* ASJInputAccessoryView.xib */; };
+		C9CC5ED97D29C6C3DE22B78A9AA2AD91 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4CCC4979FE2FCF9FB221A9865EB54A /* Kingfisher.swift */; };
+		DC6080C64C269628C3F5107BE87055E2 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97716F33F1D9E965A34D77A21EC6291F /* ImageDownloader.swift */; };
+		EA816A580C3858934ED6FE92040C26DD /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEB9A6642EBDF526924463D64B1644 /* RequestModifier.swift */; };
+		EE89512E8D36E67CDC525DB9D5BBF5A7 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D1AD032B2880022C3B1623DF82B18 /* UIButton+Kingfisher.swift */; };
+		F71D622ED07E6C86F119104EE3295725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */; };
+		F8E957950566622A3E4B61AACE8F0B4A /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2B0288C9215EEF2B07402F1B0BE669 /* ImageCache.swift */; };
+		F96467B00DB3904986883BDBF4EED32A /* ASJExpandableTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AB20FCB1077DC6C72CA8AB8597B87E /* ASJExpandableTextView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B37956E832FAD31137F65096C32658B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2140E9649D698A3434B1489C2C40558E;
+			remoteInfo = ASJExpandableTextView;
+		};
+		424FDF1A69A78C29DACD497A8DC2D5ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4944FEC314D1A66588651D006273ADE;
+			remoteInfo = Kingfisher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D6BD79F49585AA1F19F1EAEB7C88AA /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		0FCEB9A6642EBDF526924463D64B1644 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		26669247AFB98DB468DEB4805CCB9217 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		28DEB3033EA8C611F1ED75181C25B016 /* Pods-whatsappTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-whatsappTask-umbrella.h"; sourceTree = "<group>"; };
+		2E355748956482114456CC1D0241A253 /* Pods-whatsappTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-whatsappTask.modulemap"; sourceTree = "<group>"; };
+		30644DBA328F008044014A1A014D036D /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		33FB6F0B7B4AA66ABF33E4E744FA4254 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		3E2B0288C9215EEF2B07402F1B0BE669 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		3EF3FBAC3F5A5D5FBAE06AD3476DE4E4 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4216D0944CFA568A6D6EC1DB6285468C /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		45C4378DC36292F7B2B3ADCEC721CBC6 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		513A06394F066E166E7AC32E3E174486 /* Pods-whatsappTask-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-whatsappTask-resources.sh"; sourceTree = "<group>"; };
+		51D3A7AB8228DE9513032F8123CB38B3 /* Pods-whatsappTask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-whatsappTask-frameworks.sh"; sourceTree = "<group>"; };
+		5648CEB462FE4F175C58A35F6B63D597 /* ASJExpandableTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASJExpandableTextView.xcconfig; sourceTree = "<group>"; };
+		56E373EA447C0F34B504CCB3ED2420DB /* Pods_whatsappTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_whatsappTask.framework; path = "Pods-whatsappTask.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5FC6675B3A4AEA316BF330D3635D74E8 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		6AF2D070F30B398B89FF4D27A4F3A6BD /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		6C92255AD39A46BF15C4B9E57BC2BB9F /* ASJExpandableTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ASJExpandableTextView.modulemap; sourceTree = "<group>"; };
+		74B50F24F111B0EDF0E962A82D9868FC /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		7A45B3D3A2EF82B20D9E14458E5DD0EB /* Pods-whatsappTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whatsappTask.release.xcconfig"; sourceTree = "<group>"; };
+		7FAD22936645DB8FBE5288047AE89D98 /* Pods-whatsappTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whatsappTask.debug.xcconfig"; sourceTree = "<group>"; };
+		8361D74B07BFCD8B68CC9495330803C6 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		8572B1E3CFDC54F3C951A8ED3608EA70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B798E3341BE75855F2F1A2EFD093D57 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97716F33F1D9E965A34D77A21EC6291F /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		9F4CCC4979FE2FCF9FB221A9865EB54A /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		A0A38AF105450B0981AFC8FD0E982EF0 /* ASJExpandableTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASJExpandableTextView-umbrella.h"; sourceTree = "<group>"; };
+		A0AB20FCB1077DC6C72CA8AB8597B87E /* ASJExpandableTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASJExpandableTextView-dummy.m"; sourceTree = "<group>"; };
+		ACEA02ADC65E9C3E60DCD910D12268D1 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		B2CC0146955605168CC2C44F2AC4EC47 /* Pods-whatsappTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-whatsappTask-dummy.m"; sourceTree = "<group>"; };
+		B89B623EBC1DE2BE9769A215E6AA7D0C /* ASJExpandableTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASJExpandableTextView.h; path = ASJExpandableTextView/ASJExpandableTextView.h; sourceTree = "<group>"; };
+		BE6C9DD2E5DD004A15715C88C4239442 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE019279235E591C454E9A4D51BFC1CF /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		CE076773762A9C09D7ECF403A6EA17AE /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		D0B6150F5948C7152B3734FD30945D2E /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		D49A9D12F7EE961B183B286A476A4B54 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		DB2D1AD032B2880022C3B1623DF82B18 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		DBA5794656CD6EAD5432F6E93991FC63 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		DD157E135A66829817F723DEE55BFF71 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		DD3C1D622FA8B94CCA8AD05D706BC6A6 /* Pods-whatsappTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-whatsappTask-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF1CB910D28EF8561971311F474F237C /* ASJExpandableTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASJExpandableTextView-prefix.pch"; sourceTree = "<group>"; };
+		E05E7875CBDF9D5DBC9BBE2DB8D6ADD1 /* ASJInputAccessoryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ASJInputAccessoryView.xib; path = ASJExpandableTextView/ASJInputAccessoryView.xib; sourceTree = "<group>"; };
+		E72E27E9CDA8C2DA5BC394508F45C32D /* ASJExpandableTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASJExpandableTextView.framework; path = ASJExpandableTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDA2E674E74057A443EB06185F4F0EA /* ASJExpandableTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASJExpandableTextView.m; path = ASJExpandableTextView/ASJExpandableTextView.m; sourceTree = "<group>"; };
+		F0A922B062BA97735427B4765E7E7E1C /* Pods-whatsappTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-whatsappTask-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F75F043E71E646A313F259DF3DDF9079 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		F9AC9CB36E8FAE4DE485B0FBD2D4AF8C /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		FA6D7A30E7C2D594CFD507981D5C9ED4 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		FB5103B50768A36D9FFEC7B2983F432E /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		FE5C2ABD7F46D9987310C39FF53B08F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190D9E9E0BD17FE527C61506BE87C609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32F4AE0D5E8D9D07786045D9B0EF8BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2090BA6702DDB6F2C2D04A4FD7D1C0C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71D622ED07E6C86F119104EE3295725 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED03E5917B811BACFE75189AE0C2A469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92136C6584624998D5005F46C70A628B /* CFNetwork.framework in Frameworks */,
+				9C99E45B90BD95712D9878994BFC8B88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B963F066CF1C907024B787F3D5186F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DBA5794656CD6EAD5432F6E93991FC63 /* CFNetwork.framework */,
+				5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		094F46425E4E5D94AE3A491F0AC7530E /* ASJExpandableTextView */ = {
+			isa = PBXGroup;
+			children = (
+				B89B623EBC1DE2BE9769A215E6AA7D0C /* ASJExpandableTextView.h */,
+				EFDA2E674E74057A443EB06185F4F0EA /* ASJExpandableTextView.m */,
+				5310547E37148F6ACA906E09645CD3C5 /* Resources */,
+				AE02E97E50D7F778A57E206158A62F4F /* Support Files */,
+			);
+			name = ASJExpandableTextView;
+			path = ASJExpandableTextView;
+			sourceTree = "<group>";
+		};
+		28DC62E0086CC44E1793ED7423E065AF /* Pods-whatsappTask */ = {
+			isa = PBXGroup;
+			children = (
+				8572B1E3CFDC54F3C951A8ED3608EA70 /* Info.plist */,
+				2E355748956482114456CC1D0241A253 /* Pods-whatsappTask.modulemap */,
+				F0A922B062BA97735427B4765E7E7E1C /* Pods-whatsappTask-acknowledgements.markdown */,
+				DD3C1D622FA8B94CCA8AD05D706BC6A6 /* Pods-whatsappTask-acknowledgements.plist */,
+				B2CC0146955605168CC2C44F2AC4EC47 /* Pods-whatsappTask-dummy.m */,
+				51D3A7AB8228DE9513032F8123CB38B3 /* Pods-whatsappTask-frameworks.sh */,
+				513A06394F066E166E7AC32E3E174486 /* Pods-whatsappTask-resources.sh */,
+				28DEB3033EA8C611F1ED75181C25B016 /* Pods-whatsappTask-umbrella.h */,
+				7FAD22936645DB8FBE5288047AE89D98 /* Pods-whatsappTask.debug.xcconfig */,
+				7A45B3D3A2EF82B20D9E14458E5DD0EB /* Pods-whatsappTask.release.xcconfig */,
+			);
+			name = "Pods-whatsappTask";
+			path = "Target Support Files/Pods-whatsappTask";
+			sourceTree = "<group>";
+		};
+		3ECFBB076D9C417B48C5B6C3725EB7C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE6C9DD2E5DD004A15715C88C4239442 /* Info.plist */,
+				74B50F24F111B0EDF0E962A82D9868FC /* Kingfisher.modulemap */,
+				8361D74B07BFCD8B68CC9495330803C6 /* Kingfisher.xcconfig */,
+				DD157E135A66829817F723DEE55BFF71 /* Kingfisher-dummy.m */,
+				FA6D7A30E7C2D594CFD507981D5C9ED4 /* Kingfisher-prefix.pch */,
+				08D6BD79F49585AA1F19F1EAEB7C88AA /* Kingfisher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B963F066CF1C907024B787F3D5186F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5310547E37148F6ACA906E09645CD3C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E05E7875CBDF9D5DBC9BBE2DB8D6ADD1 /* ASJInputAccessoryView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		61283CE474777BB1075DEB4B782110B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28DC62E0086CC44E1793ED7423E065AF /* Pods-whatsappTask */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				F40BFA1F1F795887E8F4B53D14D27B37 /* Pods */,
+				98A12CF7691FCF51F23F58F55C4E1B20 /* Products */,
+				61283CE474777BB1075DEB4B782110B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98A12CF7691FCF51F23F58F55C4E1B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E72E27E9CDA8C2DA5BC394508F45C32D /* ASJExpandableTextView.framework */,
+				3EF3FBAC3F5A5D5FBAE06AD3476DE4E4 /* Kingfisher.framework */,
+				56E373EA447C0F34B504CCB3ED2420DB /* Pods_whatsappTask.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE02E97E50D7F778A57E206158A62F4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C92255AD39A46BF15C4B9E57BC2BB9F /* ASJExpandableTextView.modulemap */,
+				5648CEB462FE4F175C58A35F6B63D597 /* ASJExpandableTextView.xcconfig */,
+				A0AB20FCB1077DC6C72CA8AB8597B87E /* ASJExpandableTextView-dummy.m */,
+				DF1CB910D28EF8561971311F474F237C /* ASJExpandableTextView-prefix.pch */,
+				A0A38AF105450B0981AFC8FD0E982EF0 /* ASJExpandableTextView-umbrella.h */,
+				FE5C2ABD7F46D9987310C39FF53B08F0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASJExpandableTextView";
+			sourceTree = "<group>";
+		};
+		E6D4673D7EAC7F7F82C71EA0002463A4 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				F75F043E71E646A313F259DF3DDF9079 /* AnimatedImageView.swift */,
+				5FC6675B3A4AEA316BF330D3635D74E8 /* Box.swift */,
+				45C4378DC36292F7B2B3ADCEC721CBC6 /* CacheSerializer.swift */,
+				6AF2D070F30B398B89FF4D27A4F3A6BD /* Filter.swift */,
+				CE076773762A9C09D7ECF403A6EA17AE /* Image.swift */,
+				3E2B0288C9215EEF2B07402F1B0BE669 /* ImageCache.swift */,
+				97716F33F1D9E965A34D77A21EC6291F /* ImageDownloader.swift */,
+				FB5103B50768A36D9FFEC7B2983F432E /* ImagePrefetcher.swift */,
+				33FB6F0B7B4AA66ABF33E4E744FA4254 /* ImageProcessor.swift */,
+				30644DBA328F008044014A1A014D036D /* ImageTransition.swift */,
+				F9AC9CB36E8FAE4DE485B0FBD2D4AF8C /* ImageView+Kingfisher.swift */,
+				ACEA02ADC65E9C3E60DCD910D12268D1 /* Indicator.swift */,
+				4216D0944CFA568A6D6EC1DB6285468C /* Kingfisher.h */,
+				9F4CCC4979FE2FCF9FB221A9865EB54A /* Kingfisher.swift */,
+				CE019279235E591C454E9A4D51BFC1CF /* KingfisherManager.swift */,
+				8B798E3341BE75855F2F1A2EFD093D57 /* KingfisherOptionsInfo.swift */,
+				0FCEB9A6642EBDF526924463D64B1644 /* RequestModifier.swift */,
+				D0B6150F5948C7152B3734FD30945D2E /* Resource.swift */,
+				D49A9D12F7EE961B183B286A476A4B54 /* String+MD5.swift */,
+				26669247AFB98DB468DEB4805CCB9217 /* ThreadHelper.swift */,
+				DB2D1AD032B2880022C3B1623DF82B18 /* UIButton+Kingfisher.swift */,
+				3ECFBB076D9C417B48C5B6C3725EB7C8 /* Support Files */,
+			);
+			name = Kingfisher;
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		F40BFA1F1F795887E8F4B53D14D27B37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				094F46425E4E5D94AE3A491F0AC7530E /* ASJExpandableTextView */,
+				E6D4673D7EAC7F7F82C71EA0002463A4 /* Kingfisher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F94B6BFE5A6242FBBB0BE3D27F7CEE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F35D1EBAEF99D38F02A0B8CA5D8FBE /* Kingfisher-umbrella.h in Headers */,
+				179523942E7D1E3EB210EF05E2C7AE79 /* Kingfisher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D7541FF62904C4BB1C91AD49195E217 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D144E5C38C49B0EE589017468A8DDA /* Pods-whatsappTask-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF7C0E7C3C89F4A2AFF00123BD98813 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D29641810DA0759AB7B38F178ABFFD /* ASJExpandableTextView-umbrella.h in Headers */,
+				1FB4CD1D7AEB5F39A44BD62865C87436 /* ASJExpandableTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D97E7F7397B8671F478DAB176B6D964 /* Pods-whatsappTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A35D12147B258FD0E1ED32E6CBF89D /* Build configuration list for PBXNativeTarget "Pods-whatsappTask" */;
+			buildPhases = (
+				E3F58780E14EB641A5800D6C6403AB70 /* Sources */,
+				2090BA6702DDB6F2C2D04A4FD7D1C0C3 /* Frameworks */,
+				1D7541FF62904C4BB1C91AD49195E217 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27FBD06AB35AE324664D510FE81A0BC3 /* PBXTargetDependency */,
+				9B95AC6851348360222D58BA2D20D02B /* PBXTargetDependency */,
+			);
+			name = "Pods-whatsappTask";
+			productName = "Pods-whatsappTask";
+			productReference = 56E373EA447C0F34B504CCB3ED2420DB /* Pods_whatsappTask.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2140E9649D698A3434B1489C2C40558E /* ASJExpandableTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0230C78404A25B377767385F2817B0B6 /* Build configuration list for PBXNativeTarget "ASJExpandableTextView" */;
+			buildPhases = (
+				B194D5FA3F1149C8746EB1BDAF1236F0 /* Sources */,
+				190D9E9E0BD17FE527C61506BE87C609 /* Frameworks */,
+				DBF7C0E7C3C89F4A2AFF00123BD98813 /* Headers */,
+				B0D90D9CAC517CF107E0D6778330D57A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASJExpandableTextView;
+			productName = ASJExpandableTextView;
+			productReference = E72E27E9CDA8C2DA5BC394508F45C32D /* ASJExpandableTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4944FEC314D1A66588651D006273ADE /* Kingfisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E7EFBCEA1340954A03AA68051C2306 /* Build configuration list for PBXNativeTarget "Kingfisher" */;
+			buildPhases = (
+				EAC7EA95310C5E1E724C632852F7D186 /* Sources */,
+				ED03E5917B811BACFE75189AE0C2A469 /* Frameworks */,
+				0F94B6BFE5A6242FBBB0BE3D27F7CEE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingfisher;
+			productName = Kingfisher;
+			productReference = 3EF3FBAC3F5A5D5FBAE06AD3476DE4E4 /* Kingfisher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 98A12CF7691FCF51F23F58F55C4E1B20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2140E9649D698A3434B1489C2C40558E /* ASJExpandableTextView */,
+				C4944FEC314D1A66588651D006273ADE /* Kingfisher */,
+				1D97E7F7397B8671F478DAB176B6D964 /* Pods-whatsappTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0D90D9CAC517CF107E0D6778330D57A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55D828F8F253D726165D4CEA378FAF5 /* ASJInputAccessoryView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B194D5FA3F1149C8746EB1BDAF1236F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96467B00DB3904986883BDBF4EED32A /* ASJExpandableTextView-dummy.m in Sources */,
+				17C24653C3B9A56E104D7FC8B8B57610 /* ASJExpandableTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F58780E14EB641A5800D6C6403AB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BCAB23B820A852D427C6D6E2B209FD /* Pods-whatsappTask-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC7EA95310C5E1E724C632852F7D186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342AE33215135AD56B73580012DC22AB /* AnimatedImageView.swift in Sources */,
+				6DA770087D354CDCD3889CDAE7C4C698 /* Box.swift in Sources */,
+				2E5E570FFC49EF98550401421A243C0F /* CacheSerializer.swift in Sources */,
+				4089E39F76F86466B8DDD39A1C1ABB6B /* Filter.swift in Sources */,
+				33A14E817C0FA585D5DA3A55E453299D /* Image.swift in Sources */,
+				F8E957950566622A3E4B61AACE8F0B4A /* ImageCache.swift in Sources */,
+				DC6080C64C269628C3F5107BE87055E2 /* ImageDownloader.swift in Sources */,
+				3414E1D9CB15149A296E16C45967B021 /* ImagePrefetcher.swift in Sources */,
+				0E9CC28AC8E34FE8E1C87E933E04BC7A /* ImageProcessor.swift in Sources */,
+				86B7DA678C8705523C300947117C0706 /* ImageTransition.swift in Sources */,
+				33395912F2FFA355C4C36B7EDEAA3DA7 /* ImageView+Kingfisher.swift in Sources */,
+				52A280AB4852FDE92DF09B5E79D5C2AA /* Indicator.swift in Sources */,
+				6A375593407BC7937234B2B6A0811760 /* Kingfisher-dummy.m in Sources */,
+				C9CC5ED97D29C6C3DE22B78A9AA2AD91 /* Kingfisher.swift in Sources */,
+				7636F846675C9F4ED96E00C6C19A4890 /* KingfisherManager.swift in Sources */,
+				378B44CAA91C2106076668FDE72E1E02 /* KingfisherOptionsInfo.swift in Sources */,
+				EA816A580C3858934ED6FE92040C26DD /* RequestModifier.swift in Sources */,
+				8DA7E6883118CB3C8132B64D3D43AE0B /* Resource.swift in Sources */,
+				9F826F893E86EB86591B637A1CE4B13A /* String+MD5.swift in Sources */,
+				6CD63E1564618B6213B98E0ABBC3127C /* ThreadHelper.swift in Sources */,
+				EE89512E8D36E67CDC525DB9D5BBF5A7 /* UIButton+Kingfisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27FBD06AB35AE324664D510FE81A0BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASJExpandableTextView;
+			target = 2140E9649D698A3434B1489C2C40558E /* ASJExpandableTextView */;
+			targetProxy = 3B37956E832FAD31137F65096C32658B /* PBXContainerItemProxy */;
+		};
+		9B95AC6851348360222D58BA2D20D02B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = C4944FEC314D1A66588651D006273ADE /* Kingfisher */;
+			targetProxy = 424FDF1A69A78C29DACD497A8DC2D5ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DDB358439D6E365B752D867171A5244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A45B3D3A2EF82B20D9E14458E5DD0EB /* Pods-whatsappTask.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-whatsappTask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-whatsappTask/Pods-whatsappTask.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_whatsappTask;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		380C30050278E488BE23DB926933212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8361D74B07BFCD8B68CC9495330803C6 /* Kingfisher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6346648C4C20D14A9787AF16C1B65528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAD22936645DB8FBE5288047AE89D98 /* Pods-whatsappTask.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-whatsappTask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-whatsappTask/Pods-whatsappTask.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_whatsappTask;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E53245BBAAAB71AD4E0EE52CA99FD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8361D74B07BFCD8B68CC9495330803C6 /* Kingfisher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FF044CE5D07673624D6B033A19C5BD92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5648CEB462FE4F175C58A35F6B63D597 /* ASJExpandableTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASJExpandableTextView/ASJExpandableTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASJExpandableTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASJExpandableTextView/ASJExpandableTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ASJExpandableTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF73897413724BE7450E5AF165B917FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5648CEB462FE4F175C58A35F6B63D597 /* ASJExpandableTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASJExpandableTextView/ASJExpandableTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASJExpandableTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASJExpandableTextView/ASJExpandableTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ASJExpandableTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0230C78404A25B377767385F2817B0B6 /* Build configuration list for PBXNativeTarget "ASJExpandableTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF044CE5D07673624D6B033A19C5BD92 /* Debug */,
+				FF73897413724BE7450E5AF165B917FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A35D12147B258FD0E1ED32E6CBF89D /* Build configuration list for PBXNativeTarget "Pods-whatsappTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6346648C4C20D14A9787AF16C1B65528 /* Debug */,
+				1DDB358439D6E365B752D867171A5244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E7EFBCEA1340954A03AA68051C2306 /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E53245BBAAAB71AD4E0EE52CA99FD28 /* Debug */,
+				380C30050278E488BE23DB926933212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

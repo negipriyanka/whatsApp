@@ -1,0 +1,6 @@
+framework module Pods_whatsappTask {
+  umbrella header "Pods-whatsappTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
